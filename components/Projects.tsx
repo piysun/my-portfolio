@@ -30,19 +30,20 @@ export default function Projects() {
       link: "https://play.google.com/store/apps/details?id=com.musanada.check&hl=en_IN"
     },
     {
-      title: "GenAI POC & Automation Agent",
+      title: "PolicyPal - Insurance RAG Platform",
       category: "Artificial Intelligence",
-      industry: "AI / Enterprise Automation",
-      description: "Built a Retrieval-Augmented Generation (RAG) platform capable of understanding enterprise PDF documents using semantic search and AI-powered contextual responses.",
+      industry: "Insurance / AI",
+      description: "End-to-end Retrieval-Augmented Generation (RAG) platform built for analyzing complex insurance policies. Features intelligent PDF ingestion, hybrid search (semantic + keyword), and structured JSON outputs.",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80",
       highlights: [
-        "Built end-to-end RAG pipeline",
-        "Semantic document search",
-        "AI-powered knowledge retrieval",
-        "Enterprise automation workflows"
+        "Hybrid Search with Reranking",
+        "Structured JSON LLM Outputs",
+        "LangSmith Observability & Tracing",
+        "Intelligent Chunking & Embeddings"
       ],
-      technologies: ["Python", "LangChain", "LlamaIndex", "OpenAI API", "Gemini API", "Grok API", "FAISS", "ChromaDB"],
-      featured: true
+      technologies: ["Python", "LangChain", "ChromaDB", "LangSmith", "OpenAI", "Hybrid Search", "Prompt Engineering"],
+      featured: true,
+      link: "https://github.com/your-github/policypal-poc" // Update with your actual GitHub repo link
     },
     {
       title: "StaffDNA",
